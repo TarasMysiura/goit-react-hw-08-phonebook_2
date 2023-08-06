@@ -1,0 +1,28 @@
+.list {
+  margin-top: 30px;
+  color: var(--secondaryTextColor);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 2px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  background-color: #e8eaf6;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 100%;
+  margin-right: 10px;
+}
